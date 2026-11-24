@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#10152c" />
+  <meta name="description" content="Um pequeno universo, preparado com carinho para July." />
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <title>Para July, com amor ♡</title>
+  <style>
+    :root { color-scheme: dark; --ink:#f5f3ff; --muted:#cac5e8; --night:#10152c; --blue:#9bd1fc; --violet:#c3a5ff; }
+    * { box-sizing:border-box; }
+    html { min-height:100%; }
+    body { margin:0; min-height:100svh; font-family:Georgia, 'Times New Roman', serif; color:var(--ink); background: radial-gradient(ellipse at 53% 18%,#303866 0%,#1b234a 32%,#10152c 73%,#0b1125 100%); overflow-x:hidden; }
+    .sky { position:fixed; inset:0; pointer-events:none; overflow:hidden; }
+    .sky::after { content:''; position:absolute; inset:0; background:linear-gradient(0deg,rgba(9,13,32,.45),transparent 48%); }
+    .star { position:absolute; width:3px; height:3px; border-radius:50%; background:#fff9e4; box-shadow:0 0 9px 2px rgba(223,216,255,.25); animation:twinkle var(--duration,4s) ease-in-out infinite alternate; animation-delay:var(--delay,0s); opacity:.55; }
+    .star.big { width:5px;height:5px; background:#ffe7a8; }
+    @keyframes twinkle { from { opacity:.24; transform:scale(.7); } to { opacity:1; transform:scale(1.28); } }
+    main { position:relative; z-index:1; min-height:100svh; display:grid; place-items:center; padding:48px 20px 28px; }
+    .content { width:min(100%,640px); text-align:center; animation:appear 1.3s both; }
+    @keyframes appear { from { opacity:0; transform:translateY(18px); } to { opacity:1;transform:translateY(0); } }
+    .moon { display:block; width:112px; height:112px; margin:0 auto 22px; filter:drop-shadow(0 0 27px rgba(224,214,255,.24)); }
+    .eyebrow { margin:0 0 12px; font:600 .72rem/1.5 system-ui,sans-serif; letter-spacing:.25em; text-transform:uppercase; color:#c0c5ef; }
+    h1 { font-size:clamp(2.45rem,8.5vw,4.25rem); font-weight:normal; letter-spacing:-.035em; line-height:1.13; margin:0 0 22px; text-wrap:balance; }
+    h1 em { font-style:italic; color:#cbb9ff; }
+    .intro { color:#eee9ff; font-size:clamp(1.09rem,3.7vw,1.28rem); line-height:1.72; margin:0 auto; max-width:480px; text-wrap:pretty; }
+    .note { margin:24px auto 0; padding:15px 21px; border:1px solid rgba(205,203,255,.24); background:rgba(236,228,255,.06); backdrop-filter:blur(8px); border-radius:18px; max-width:400px; color:var(--muted); font:400 .94rem/1.6 system-ui,sans-serif; }
+    .bunny-wrap { margin:27px auto 4px; width:100px; }
+    .bunny { width:100%; height:auto; filter:drop-shadow(0 5px 12px rgba(0,0,0,.2)); animation:float 5s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform:translateY(0) rotate(-2deg); } 50% { transform:translateY(-7px) rotate(2deg); } }
+    footer { margin-top:22px; color:#b9b7dc; font:400 .73rem/1.6 system-ui,sans-serif; letter-spacing:.1em; }
+    .heart { color:#d9bfff; }
+    @media (prefers-reduced-motion:reduce) { *,*::before,*::after { animation:none!important; scroll-behavior:auto!important; } }
+  </style>
+</head>
+<body>
+  <div class="sky" id="sky" aria-hidden="true"></div>
+  <main>
+    <div class="content">
+      <svg class="moon" viewBox="0 0 120 120" aria-label="Lua crescente e estrelas" role="img" xmlns="http://www.w3.org/2000/svg">
+        <defs><linearGradient id="moonlight" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fff4cf"/><stop offset="1" stop-color="#c5c4ff"/></linearGradient></defs>
+        <path d="M80 11a45 45 0 1 0 26 78A45 45 0 0 1 80 11Z" fill="url(#moonlight)"/>
+        <path d="m18 11 3 9 9 3-9 3-3 9-3-9-9-3 9-3zM108 27l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" fill="#ffe7a2"/>
+      </svg>
+      <p class="eyebrow">Um cantinho só seu</p>
+      <h1>Para <em>July</em>,<br>com amor <span class="heart">♡</span></h1>
+      <p class="intro">Há pessoas que parecem carregar um universo inteiro dentro de si.<br>Este cantinho está sendo preparado para celebrar o seu.</p>
+      <div class="note">Por enquanto, as estrelas estão se organizando...<br>Logo, uma surpresa vai morar aqui. ✦</div>
+      <div class="bunny-wrap" aria-hidden="true">
+        <svg class="bunny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 125">
+          <path d="M41 67C23 41 22 7 35 7c14-1 16 25 20 46C64 17 70 5 80 11c13 8-1 40-8 57" fill="#f0ebff" stroke="#b7a7da" stroke-width="3.5" stroke-linejoin="round"/>
+          <path d="M37 17c1 14 5 24 9 35M77 21c-5 11-8 21-10 31" fill="none" stroke="#e9b6d8" stroke-width="5" stroke-linecap="round"/>
+          <ellipse cx="60" cy="83" rx="42" ry="35" fill="#f0ebff" stroke="#b7a7da" stroke-width="3.5"/>
+          <ellipse cx="44" cy="82" rx="4" ry="5" fill="#403555"/><ellipse cx="76" cy="82" rx="4" ry="5" fill="#403555"/>
+          <path d="m56 93 4 3 4-3" fill="#e9a5bf" stroke="#bd7e9c" stroke-width="1.3" stroke-linejoin="round"/>
+          <path d="M60 96v3m0 0q-4 5-8 0m8 0q4 5 8 0" fill="none" stroke="#746588" stroke-width="1.7" stroke-linecap="round"/>
+          <ellipse cx="30" cy="94" rx="7" ry="4" fill="#f7bdd6" opacity=".6"/><ellipse cx="90" cy="94" rx="7" ry="4" fill="#f7bdd6" opacity=".6"/>
+          <path d="m89 60 3-6 3 6 6 3-6 3-3 6-3-6-6-3z" fill="#ffe6a2"/>
+        </svg>
+      </div>
+      <footer>Feito com carinho, uma estrela de cada vez <span class="heart">♥</span></footer>
+    </div>
+  </main>
+  <script>
+    // Estrelas decorativas: não há dependências nem dados externos.
+    const sky = document.getElementById('sky');
+    const stars = 75;
+    const fragment = document.createDocumentFragment();
+    for (let i = 0; i < stars; i++) {
+      const star = document.createElement('span');
+      star.className = 'star' + (i % 13 === 0 ? ' big' : '');
+      star.style.left = (3 + Math.random() * 94) + '%';
+      star.style.top = (2 + Math.random() * 96) + '%';
+      star.style.setProperty('--duration', (2.5 + Math.random() * 5) + 's');
+      star.style.setProperty('--delay', (-Math.random() * 6) + 's');
+      fragment.appendChild(star);
+    }
+    sky.appendChild(fragment);
+  </script>
+</body>
+</html>
